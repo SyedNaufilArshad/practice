@@ -12,6 +12,8 @@ package vehicles;
 public class Driver
 {
 
+   private double gas;
+
    /**
     * @param args the command line arguments
     */
@@ -22,6 +24,22 @@ public class Driver
 
    public void promptUser ()
    {
+   }
+
+   /**
+    * @return the gas
+    */
+   public double getGas ()
+   {
+      return gas;
+   }
+
+   /**
+    * @param gas the gas to set
+    */
+   public void setGas (double gas)
+   {
+      this.gas = gas;
    }
 
 }
